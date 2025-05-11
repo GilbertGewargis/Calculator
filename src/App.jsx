@@ -25,6 +25,7 @@ function App() {
 
   return (
       <>
+      <div className='container'>
       <div><h3 id='DISPLAY'>{input}</h3></div>
       <div id='Buttons'>
       <Button value="/" handleClick={handleClick} />
@@ -49,6 +50,7 @@ function App() {
       <Button value="0" handleClick={handleClick} />
       <Button value="." handleClick={handleClick} />
       <Button value="=" handleClick={handleClick} />
+      </div>
       </div>
       </>
   );
